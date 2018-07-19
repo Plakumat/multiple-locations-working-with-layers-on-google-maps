@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Google Map Marker Highlights</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="https://maps.googleapis.com/maps/api/js?libraries=places&sensor=false "></script>
+        <style>
+            #map-canvas{
+                height:500px;
+                margin-bottom:10px
+            }
+        </style>
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+        
+        <div id="map-canvas"></div>
+
+        <button id="refresh-map">Refresh</button>
+        <button id="show-traffic-status">Traffic</button>
+        <button id="bicycling-status">Bike</button>
+
+        <p>Zoom out and press the refresh button for see more another location. 
+           <br>
+           Click to see traffic status Traffic button.
+           <br>
+           Click to look all cycling roads on map with gray fill.
+        </p>
+
+        <p>If you change your location that you're looking for, change the name index in request array and type for marker icon "results[i].icon". <br>After that the icon will be change and related your location.</p>
+
+        <script src="map-config.js"></script>
+    
+    </body>
+</html>
