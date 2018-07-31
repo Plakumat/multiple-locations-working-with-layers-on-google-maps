@@ -7,3 +7,5 @@ After that the icon will be change and related your location.
 Some useful links and references:
 [Google Maps API](https://developers.google.com/maps/documentation/javascript/tutorial)
 [Google Maps Layer](https://developers.google.com/maps/documentation/javascript/examples/layer-traffic)
+
+![app-image](https://github.com/Plakumat/multiple-locations-working-with-layers-on-google-maps/blob/master/app-image.PNG)
